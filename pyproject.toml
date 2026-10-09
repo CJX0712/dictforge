@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dictforge"
+version = "0.1.0"
+description = "World-class dictionary learning / sparse-coding AI system (K-SVD, MOD, Online, fused cross-validated selection)."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "晨星" }]
+keywords = [
+    "dictionary-learning",
+    "sparse-coding",
+    "k-svd",
+    "omp",
+    "representation-learning",
+    "ai",
+    "signal-processing",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.10",
+    "scikit-learn>=1.3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.4"]
+
+[project.scripts]
+dictforge = "dictforge.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["dictforge*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "C4", "SIM"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["B", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]

@@ -1,0 +1,507 @@
+{
+  "config": {
+    "seed": 7,
+    "n_seeds": 3,
+    "datasets": [
+      "gabor",
+      "randstruct",
+      "natural"
+    ],
+    "patch_dim": 24,
+    "n_atoms": 48,
+    "sparsity": 5,
+    "true_atoms": 12,
+    "true_sparsity": 3,
+    "n_iter": 5
+  },
+  "rows": [
+    {
+      "method": "random",
+      "dataset": "gabor",
+      "seed": 7,
+      "nrmse": 0.5551155209097692,
+      "sparsity": 5.0,
+      "train_nrmse": 0.5497000654220144
+    },
+    {
+      "method": "dct",
+      "dataset": "gabor",
+      "seed": 7,
+      "nrmse": 0.3168188969207569,
+      "sparsity": 5.0,
+      "train_nrmse": 0.3152512289571647
+    },
+    {
+      "method": "mod",
+      "dataset": "gabor",
+      "seed": 7,
+      "nrmse": 0.10669115211279648,
+      "sparsity": 5.0,
+      "train_nrmse": 0.08791573444847689
+    },
+    {
+      "method": "online",
+      "dataset": "gabor",
+      "seed": 7,
+      "nrmse": 0.11294342625758053,
+      "sparsity": 5.0,
+      "train_nrmse": 0.09147471160522137
+    },
+    {
+      "method": "ksvd",
+      "dataset": "gabor",
+      "seed": 7,
+      "nrmse": 0.1627166371732792,
+      "sparsity": 5.0,
+      "train_nrmse": 0.13763006195005043
+    },
+    {
+      "method": "ksvdfuse",
+      "dataset": "gabor",
+      "seed": 7,
+      "nrmse": 0.10992518195194624,
+      "sparsity": 5.0,
+      "train_nrmse": 0.09596845015897718
+    },
+    {
+      "method": "random",
+      "dataset": "gabor",
+      "seed": 8,
+      "nrmse": 0.5546603473758439,
+      "sparsity": 5.0,
+      "train_nrmse": 0.5631029598947497
+    },
+    {
+      "method": "dct",
+      "dataset": "gabor",
+      "seed": 8,
+      "nrmse": 0.2603974159328125,
+      "sparsity": 5.0,
+      "train_nrmse": 0.23968888161946683
+    },
+    {
+      "method": "mod",
+      "dataset": "gabor",
+      "seed": 8,
+      "nrmse": 0.09169977013131805,
+      "sparsity": 5.0,
+      "train_nrmse": 0.07221516718149759
+    },
+    {
+      "method": "online",
+      "dataset": "gabor",
+      "seed": 8,
+      "nrmse": 0.08892932967324005,
+      "sparsity": 5.0,
+      "train_nrmse": 0.0768248578863496
+    },
+    {
+      "method": "ksvd",
+      "dataset": "gabor",
+      "seed": 8,
+      "nrmse": 0.14705064694585102,
+      "sparsity": 5.0,
+      "train_nrmse": 0.13037920407985631
+    },
+    {
+      "method": "ksvdfuse",
+      "dataset": "gabor",
+      "seed": 8,
+      "nrmse": 0.08581446462887861,
+      "sparsity": 5.0,
+      "train_nrmse": 0.0728069643603383
+    },
+    {
+      "method": "random",
+      "dataset": "gabor",
+      "seed": 9,
+      "nrmse": 0.5614117227436605,
+      "sparsity": 5.0,
+      "train_nrmse": 0.5636975721738409
+    },
+    {
+      "method": "dct",
+      "dataset": "gabor",
+      "seed": 9,
+      "nrmse": 0.2862848716033891,
+      "sparsity": 5.0,
+      "train_nrmse": 0.28830375367157496
+    },
+    {
+      "method": "mod",
+      "dataset": "gabor",
+      "seed": 9,
+      "nrmse": 0.09954952614184989,
+      "sparsity": 5.0,
+      "train_nrmse": 0.08429818907765377
+    },
+    {
+      "method": "online",
+      "dataset": "gabor",
+      "seed": 9,
+      "nrmse": 0.10632640411445121,
+      "sparsity": 5.0,
+      "train_nrmse": 0.08669723794349005
+    },
+    {
+      "method": "ksvd",
+      "dataset": "gabor",
+      "seed": 9,
+      "nrmse": 0.17377910181196274,
+      "sparsity": 5.0,
+      "train_nrmse": 0.139047987808996
+    },
+    {
+      "method": "ksvdfuse",
+      "dataset": "gabor",
+      "seed": 9,
+      "nrmse": 0.10055749242400366,
+      "sparsity": 5.0,
+      "train_nrmse": 0.0837257294535376
+    },
+    {
+      "method": "random",
+      "dataset": "randstruct",
+      "seed": 7,
+      "nrmse": 0.5567462260511286,
+      "sparsity": 5.0,
+      "train_nrmse": 0.5559030872867521
+    },
+    {
+      "method": "dct",
+      "dataset": "randstruct",
+      "seed": 7,
+      "nrmse": 0.5897233967224591,
+      "sparsity": 5.0,
+      "train_nrmse": 0.6001733456904703
+    },
+    {
+      "method": "mod",
+      "dataset": "randstruct",
+      "seed": 7,
+      "nrmse": 0.14644846770625483,
+      "sparsity": 5.0,
+      "train_nrmse": 0.12570247582084565
+    },
+    {
+      "method": "online",
+      "dataset": "randstruct",
+      "seed": 7,
+      "nrmse": 0.15370662272798286,
+      "sparsity": 5.0,
+      "train_nrmse": 0.12721659852208475
+    },
+    {
+      "method": "ksvd",
+      "dataset": "randstruct",
+      "seed": 7,
+      "nrmse": 0.1654904270817858,
+      "sparsity": 5.0,
+      "train_nrmse": 0.1484778971368247
+    },
+    {
+      "method": "ksvdfuse",
+      "dataset": "randstruct",
+      "seed": 7,
+      "nrmse": 0.151741369774201,
+      "sparsity": 5.0,
+      "train_nrmse": 0.1284729764774021
+    },
+    {
+      "method": "random",
+      "dataset": "randstruct",
+      "seed": 8,
+      "nrmse": 0.5538648251598234,
+      "sparsity": 5.0,
+      "train_nrmse": 0.5524954182805994
+    },
+    {
+      "method": "dct",
+      "dataset": "randstruct",
+      "seed": 8,
+      "nrmse": 0.583841275709941,
+      "sparsity": 5.0,
+      "train_nrmse": 0.5990211187874607
+    },
+    {
+      "method": "mod",
+      "dataset": "randstruct",
+      "seed": 8,
+      "nrmse": 0.1418194523955486,
+      "sparsity": 5.0,
+      "train_nrmse": 0.11952622520085436
+    },
+    {
+      "method": "online",
+      "dataset": "randstruct",
+      "seed": 8,
+      "nrmse": 0.14688907257582864,
+      "sparsity": 5.0,
+      "train_nrmse": 0.12399112391679085
+    },
+    {
+      "method": "ksvd",
+      "dataset": "randstruct",
+      "seed": 8,
+      "nrmse": 0.17763001739526119,
+      "sparsity": 5.0,
+      "train_nrmse": 0.15177659081044328
+    },
+    {
+      "method": "ksvdfuse",
+      "dataset": "randstruct",
+      "seed": 8,
+      "nrmse": 0.148088381915004,
+      "sparsity": 5.0,
+      "train_nrmse": 0.11604467127355068
+    },
+    {
+      "method": "random",
+      "dataset": "randstruct",
+      "seed": 9,
+      "nrmse": 0.5716915622182319,
+      "sparsity": 5.0,
+      "train_nrmse": 0.5749989660829803
+    },
+    {
+      "method": "dct",
+      "dataset": "randstruct",
+      "seed": 9,
+      "nrmse": 0.5769040844648854,
+      "sparsity": 5.0,
+      "train_nrmse": 0.5879449710869381
+    },
+    {
+      "method": "mod",
+      "dataset": "randstruct",
+      "seed": 9,
+      "nrmse": 0.15486419470054005,
+      "sparsity": 5.0,
+      "train_nrmse": 0.11920296550153846
+    },
+    {
+      "method": "online",
+      "dataset": "randstruct",
+      "seed": 9,
+      "nrmse": 0.15266686316479472,
+      "sparsity": 5.0,
+      "train_nrmse": 0.12415354331998125
+    },
+    {
+      "method": "ksvd",
+      "dataset": "randstruct",
+      "seed": 9,
+      "nrmse": 0.195738579988412,
+      "sparsity": 5.0,
+      "train_nrmse": 0.1604049924358783
+    },
+    {
+      "method": "ksvdfuse",
+      "dataset": "randstruct",
+      "seed": 9,
+      "nrmse": 0.13839563696871587,
+      "sparsity": 5.0,
+      "train_nrmse": 0.11443375571903838
+    },
+    {
+      "method": "random",
+      "dataset": "natural",
+      "seed": 7,
+      "nrmse": 0.5803227529052682,
+      "sparsity": 5.0,
+      "train_nrmse": 0.5777227671016076
+    },
+    {
+      "method": "dct",
+      "dataset": "natural",
+      "seed": 7,
+      "nrmse": 0.4135427987875592,
+      "sparsity": 5.0,
+      "train_nrmse": 0.4184823011717492
+    },
+    {
+      "method": "mod",
+      "dataset": "natural",
+      "seed": 7,
+      "nrmse": 0.13581746732295374,
+      "sparsity": 5.0,
+      "train_nrmse": 0.10857689652424256
+    },
+    {
+      "method": "online",
+      "dataset": "natural",
+      "seed": 7,
+      "nrmse": 0.12192666126163096,
+      "sparsity": 5.0,
+      "train_nrmse": 0.10113777774143891
+    },
+    {
+      "method": "ksvd",
+      "dataset": "natural",
+      "seed": 7,
+      "nrmse": 0.18039301265979255,
+      "sparsity": 5.0,
+      "train_nrmse": 0.15830441011263074
+    },
+    {
+      "method": "ksvdfuse",
+      "dataset": "natural",
+      "seed": 7,
+      "nrmse": 0.13121428250343195,
+      "sparsity": 5.0,
+      "train_nrmse": 0.11045983764422256
+    },
+    {
+      "method": "random",
+      "dataset": "natural",
+      "seed": 8,
+      "nrmse": 0.5743764211118155,
+      "sparsity": 5.0,
+      "train_nrmse": 0.5803496067146203
+    },
+    {
+      "method": "dct",
+      "dataset": "natural",
+      "seed": 8,
+      "nrmse": 0.3839261125375696,
+      "sparsity": 5.0,
+      "train_nrmse": 0.3882129612502932
+    },
+    {
+      "method": "mod",
+      "dataset": "natural",
+      "seed": 8,
+      "nrmse": 0.12734003245863573,
+      "sparsity": 5.0,
+      "train_nrmse": 0.0999690509087547
+    },
+    {
+      "method": "online",
+      "dataset": "natural",
+      "seed": 8,
+      "nrmse": 0.12275826043750815,
+      "sparsity": 5.0,
+      "train_nrmse": 0.10073551395561735
+    },
+    {
+      "method": "ksvd",
+      "dataset": "natural",
+      "seed": 8,
+      "nrmse": 0.17349349267329978,
+      "sparsity": 5.0,
+      "train_nrmse": 0.1470289114167691
+    },
+    {
+      "method": "ksvdfuse",
+      "dataset": "natural",
+      "seed": 8,
+      "nrmse": 0.11432066509096767,
+      "sparsity": 5.0,
+      "train_nrmse": 0.09245024707735265
+    },
+    {
+      "method": "random",
+      "dataset": "natural",
+      "seed": 9,
+      "nrmse": 0.5441135501280361,
+      "sparsity": 5.0,
+      "train_nrmse": 0.5404484337471079
+    },
+    {
+      "method": "dct",
+      "dataset": "natural",
+      "seed": 9,
+      "nrmse": 0.38894187634719024,
+      "sparsity": 5.0,
+      "train_nrmse": 0.3984540139359179
+    },
+    {
+      "method": "mod",
+      "dataset": "natural",
+      "seed": 9,
+      "nrmse": 0.14068940470718763,
+      "sparsity": 5.0,
+      "train_nrmse": 0.11497073013940522
+    },
+    {
+      "method": "online",
+      "dataset": "natural",
+      "seed": 9,
+      "nrmse": 0.1295214048000865,
+      "sparsity": 5.0,
+      "train_nrmse": 0.10106677065736534
+    },
+    {
+      "method": "ksvd",
+      "dataset": "natural",
+      "seed": 9,
+      "nrmse": 0.195862776559552,
+      "sparsity": 5.0,
+      "train_nrmse": 0.15127434028450898
+    },
+    {
+      "method": "ksvdfuse",
+      "dataset": "natural",
+      "seed": 9,
+      "nrmse": 0.13629529752379926,
+      "sparsity": 5.0,
+      "train_nrmse": 0.11176362107061015
+    }
+  ],
+  "per_method": {
+    "random": {
+      "mean": 0.5613669920670641,
+      "std": 0.011696901742190778,
+      "n": 9
+    },
+    "dct": {
+      "mean": 0.4222645254473959,
+      "std": 0.13063758185730634,
+      "n": 9
+    },
+    "mod": {
+      "mean": 0.12721327418634276,
+      "std": 0.02250336152237462,
+      "n": 9
+    },
+    "online": {
+      "mean": 0.1261853383347893,
+      "std": 0.022039972440723615,
+      "n": 9
+    },
+    "ksvd": {
+      "mean": 0.17468385469879957,
+      "std": 0.015518882306606743,
+      "n": 9
+    },
+    "ksvdfuse": {
+      "mean": 0.12403919697566093,
+      "std": 0.02252706924451088,
+      "n": 9
+    }
+  },
+  "headline": {
+    "naive_random": {
+      "mean": 0.5613669920670641,
+      "std": 0.011696901742190778,
+      "n": 9
+    },
+    "flagship_ksvdfuse": {
+      "mean": 0.12403919697566093,
+      "std": 0.02252706924451088,
+      "n": 9
+    },
+    "best_component": {
+      "method": "online",
+      "mean": 0.1261853383347893,
+      "std": 0.022039972440723615,
+      "n": 9
+    },
+    "reduction_vs_naive": 0.7790408080123769,
+    "non_inferior": true,
+    "significant": true,
+    "gate_pass": true
+  },
+  "wall_clock_sec": 24.944,
+  "deterministic": true
+}
